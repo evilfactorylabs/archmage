@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: peertube
+data:
+  PEERTUBE_SMTP_FROM:
+  PEERTUBE_SMTP_PORT:
+  PEERTUBE_SMTP_TLS:
+  PEERTUBE_SMTP_DISABLE_STARTTLS:
+  PEERTUBE_ADMIN_EMAIL: sixsixsix@evilfactorylabs.social
