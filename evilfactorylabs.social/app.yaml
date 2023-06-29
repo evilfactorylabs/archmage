@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: evilfactorylabs.social
+  namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: peertube
+    name: heavy-rotation
+  project: evilfactorylabs.social
+  source:
+    path: evilfactorylabs.social
+    repoURL: https://github.com/evilfactorylabs/archmage
+    targetRevision: HEAD
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
