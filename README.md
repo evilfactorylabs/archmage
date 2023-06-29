@@ -5,7 +5,7 @@ well, you ain't.
 
 ## Clusters
 
-The main ArgoCD cluster runs on DOKS in Singapore regions. The UI is only accessible via Tailscale and any inter-cloud connections
+The main ArgoCD cluster runs on DOKS in Singapore regions. The UI is only accessible via Tailscale and any inter-cluster connections
 done through a VPN. The clusters are:
 
 ### ArgoCD (don't interact with this directly)
