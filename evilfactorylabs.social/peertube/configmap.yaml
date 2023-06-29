@@ -5,7 +5,7 @@ metadata:
   namespace: evilfactorylabs-social
 data:
   PEERTUBE_SMTP_FROM: sixsixsix@evilfactorylabs.social
-  PEERTUBE_SMTP_PORT: 25
+  PEERTUBE_SMTP_PORT: '25'
   PEERTUBE_SMTP_TLS: 'false'
   PEERTUBE_SMTP_DISABLE_STARTTLS: 'false'
   PEERTUBE_ADMIN_EMAIL: sixsixsix@evilfactorylabs.social
